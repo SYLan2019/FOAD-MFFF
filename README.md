@@ -1,17 +1,21 @@
-# SANF-AD
-ICME2023--A Semantic-awareness Normalizing Flow Model for Anomaly Detection. 
+# FOAD-MFFF
+ICIP2023--Flow-based one-class anomaly detection with Multi-frequency Feature fusion. International Conference on Image Processing. 
 Accepted.
 
 
 ## Paper Introduction
-Anomaly detection in computer vision aims to detect outliers from input image data. Examples include texture defect detection and semantic discrepancy detection. However, existing methods are limited in detecting both types of anomalies, especially for the latter. In this work, we propose a novel semantics-aware normalizing flow model to address the above challenges. First, we employ the semantic features extracted from a backbone network as the initial input of the normalizing flow model, which learns the mapping from the normal data to a normal distribution according to semantic attributes, thus enhances the discrimination of semantic anomaly detection. Second, we design a new feature fusion module in the normalizing flow model to integrate texture features and semantic features, which can substantially improve the fitting of the distribution function with input data, thus achieving improved performance for the detection of both types of anomalies. Extensive experiments on five well-known datasets for semantic anomaly detection show that the proposed method outperforms the state-of-the-art baselines.
+Anomaly detection in computer vision seeks to identify samples outside of a predefined distribution, including texture defect detection and semantic anomaly detection. However,
+existing methods are difficult to simultaneously achieve high performance for both types of anomaly detection. To address this issue, we propose a new flow-based anomaly detection
+method. Firstly, we use semantic features extracted from a pre-trained backbone to learn the distribution of normal data from a semantic perspective. Secondly, we introduce a
+multi-frequency feature fusion module to aggregate semantic and texture information, which substantially improves performance for both types of anomaly detection at the same
+time. Extensive experiments on multiple well-known datasets demonstrate that our proposed method performs well in both types of anomaly detection, specially, achieves state-of-theart performance in one-class anomaly detection . The codes will be available at https://github.com/SYLan2019/FOADMFFF
 
 
 ## Installation
 
 1. First clone the repository
    ```
-   git clone https://github.com/SYLan2019/SANF-AD.git
+   git clone https://github.com/SYLan2019/FOAD-MFFF.git
    ```
 2. Create the virtual environment via conda
     ```
