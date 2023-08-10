@@ -4,12 +4,7 @@ Accepted.
 
 
 ## Paper Introduction
-Anomaly detection in computer vision seeks to identify samples outside of a predefined distribution, including texture defect detection and semantic anomaly detection. However,
-existing methods are difficult to simultaneously achieve high performance for both types of anomaly detection. To address this issue, we propose a new flow-based anomaly detection
-method. Firstly, we use semantic features extracted from a pre-trained backbone to learn the distribution of normal data from a semantic perspective. Secondly, we introduce a
-multi-frequency feature fusion module to aggregate semantic and texture information, which substantially improves performance for both types of anomaly detection at the same
-time. Extensive experiments on multiple well-known datasets demonstrate that our proposed method performs well in both types of anomaly detection, specially, achieves state-of-theart performance in one-class anomaly detection . The codes will be available at https://github.com/SYLan2019/FOADMFFF
-
+Anomaly detection in computer vision seeks to identify samples outside of a predefined distribution, including texture defect detection and semantic anomaly detection. However, existing methods are difficult to simultaneously achieve high performance for both types of anomaly detection. To address this issue, we propose a new flow-based anomaly detection method. Firstly, we use semantic features extracted from a pre-trained backbone to learn the distribution of normal data from a semantic perspective. Secondly, we introduce a multi-frequency feature fusion module to aggregate semantic and texture information, which substantially improves performance for both types of anomaly detection at the same time. Extensive experiments on multiple well-known datasets demonstrate that our proposed method performs well in both types of anomaly detection, specially, achieves state-of-the-art performance in one-class anomaly detection. The codes will be available at https://github.com/SYLan2019/FOAD-MFFF.
 
 ## Installation
 
